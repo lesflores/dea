@@ -41,17 +41,12 @@ resultado <- model_basic(
   orientation = "io",
   rts = "vrs"
 )
-
 # "io" significa que el modelo está orientado a insumos, es decir, 
 # busca minimizar los insumos manteniendo los niveles de productos.
-
 # "vrs" significa que se asume rendimientos variables a escala 
-
 
 # Resultado de mppios con mayor eficiencia
 efficiencies(resultado)
-
-
 # Una puntuación de 1 indica que el municipio es eficiente en el uso de sus recursos para generar servicios.
 # Una puntuación menor a 1 indica que el municipio es ineficiente y tiene margen para mejorar.
 
